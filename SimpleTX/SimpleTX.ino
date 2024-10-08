@@ -554,7 +554,7 @@ void loop()
      * Handel digital input
      */
     AUX1_Arm = digitalRead(DIGITAL_PIN_SWITCH_ARM);
-    if (Is_Rudder_Reverse == 1) {
+    if (Is_Arm_Reverse == 1) {
       AUX1_Arm = ~AUX1_Arm;
     }
     AUX2_value = digitalRead(DIGITAL_PIN_SWITCH_AUX2);
